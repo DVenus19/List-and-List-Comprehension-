@@ -36,7 +36,7 @@ while option !=0:
         #Modify an element
         for item in list1:
             print(item)
-            list1[4]='120'
+            list1[4]=120
             print(list1)
             break
         
@@ -53,6 +53,7 @@ while option !=0:
         for item in list1:
             print(item)
             list1.sort()
+            print(list1)
             break
         
     elif option == 6:
